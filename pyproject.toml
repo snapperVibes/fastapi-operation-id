@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "fastapi-operation-id"
+version = "0.1.0"
+description = "A FastAPI utility for cleaner operation ids"
+authors = ["Snapper <LearningWithSnapper@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/snapperVibes/fastapi-operation-id"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+fastapi = "^0.65.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
