@@ -1,7 +1,14 @@
 # FastAPI Operation ID
 ##### A FastAPI utility for cleaner operation ids
 
+Install using pip:
+```shell
+pip install fastapi-operation-id
+```
+
 ## Usage
+
+
 FastAPI Operation ID contains a single function, `clean_ids`.
 ```python
 from fastapi import FastAPI
@@ -25,5 +32,3 @@ After `clean_app`, the operation id is `hello_world`.
 Code generation on OpenAPI often use a route's operationId as the function name.
 FastAPI defaults to operation IDs that, while descriptive, make poor function names.
 FastAPI Operation ID changes the operation IDs to be human friendly.
-
-## Advanced
